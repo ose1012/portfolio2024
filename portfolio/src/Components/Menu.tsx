@@ -22,6 +22,7 @@ const Menu: React.FC = () => {
           padding: "20px",
           fontFamily: "East Sea Dokdo",
           fontSize: "40px",
+          maxWidth: "100%",
         }}
       >
         <Profile name={name} profileImage={profileImage} />

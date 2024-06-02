@@ -21,7 +21,6 @@ const Profile: React.FC<ProfileProps> = ({ name, profileImage }) => {
     >
       <img
         src={profileImage}
-        style={{ width: "250px", borderRadius: "50%" }}
         className="profile-image"
       />
       <Text>{name}</Text>

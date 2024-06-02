@@ -4,6 +4,8 @@
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: cover;
+  width: 250px;
+  border-radius: 50%;
 }
 @-webkit-keyframes profile__animate {
   0% {
@@ -25,5 +27,11 @@
   }
   to {
     border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .profile-image {
+    width: 150px;
+    margin-bottom: -25px;
   }
 }
