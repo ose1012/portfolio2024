@@ -1,0 +1,29 @@
+.profile-image {
+  -webkit-animation: profile__animate 8s ease-in-out 1s infinite;
+  animation: profile__animate 8s ease-in-out 1s infinite;
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+@-webkit-keyframes profile__animate {
+  0% {
+    border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+  }
+  50% {
+    border-radius: 30% 60% 70% 40%/50% 60% 30% 60%;
+  }
+  to {
+    border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+  }
+}
+@keyframes profile__animate {
+  0% {
+    border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+  }
+  50% {
+    border-radius: 30% 60% 70% 40%/50% 60% 30% 60%;
+  }
+  to {
+    border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+  }
+}
