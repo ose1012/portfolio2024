@@ -13,13 +13,16 @@ const Album: React.FC = () => {
       src: "https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FHW64x%2FbtsF7TrOAj4%2F9e3JOn0r0z51EWPctW2tck%2Fimg.png",
     },
     {
-      src: "https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FbQdcqF%2FbtsHMz6xVdz%2FeRZfGRZZZ3Bs3ZJ0EPC261%2Fimg.png",
+      src: "https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FedYQPL%2FbtsHLxIrpA7%2FlvUCshqGftvyfbuvCWhWDk%2Fimg.png",
     },
     {
       src: "https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FbqPUE9%2FbtsHLt0utjH%2FnRjAA1mAcdVThOAmhsjW4k%2Fimg.png",
     },
     {
       src: "https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FRCezC%2FbtsHKTkTVFg%2F3xqr1ReYxihxiIkgHEM7t0%2Fimg.png",
+    },
+    {
+      src: "https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FzaorP%2FbtsHLyN7KwB%2Fk6wzQKVrjkxwwOGL1q5BW0%2Fimg.png",
     },
     {
       src: "https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FVxowh%2FbtsHKpknZrj%2FEi3JEPIK7a5KknjkUkS330%2Fimg.png",
@@ -30,8 +33,11 @@ const Album: React.FC = () => {
     {
       src: "https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FbWZHlM%2FbtsHKViHZCA%2FQM3ne4cBbQVE2F8oNjdxz0%2Fimg.png",
     },
+    {
+      src: "https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FbQdcqF%2FbtsHMz6xVdz%2FeRZfGRZZZ3Bs3ZJ0EPC261%2Fimg.png",
+    },
   ];
-
+  
   const openFullscreen = (src: string) => {
     setSelectedImage(src);
   };
