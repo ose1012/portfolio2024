@@ -15,7 +15,6 @@ const Menu: React.FC = () => {
         flexDirection: "column",
         justifyContent: "center",
         alignContent: "flex-start",
-        marginRight: "50px",
       }}
     >
       <div
