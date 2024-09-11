@@ -1,13 +1,13 @@
-/* 기본 스타일 */
 .album-grid {
-  display: flex;
-  flex-wrap: wrap;
-  grid-template-columns: repeat(var(--grid-cols), 1fr);
-  gap: 16px;
+  display: grid;
+  grid-template-columns: repeat(var(--grid-cols, 4), 1fr);
+  gap: 30px;
+  justify-content: center;
+  overflow-y: auto; /* 세로 스크롤 허용 */
 }
 
 .album-item {
-  width: 280px;
+  width: 100%; /* 부모 grid에 맞추기 */
   height: 210px;
   display: flex;
   justify-content: center;
@@ -46,14 +46,14 @@
 
 @media screen and (max-width: 768px) {
   .album-grid {
-    display: flex;
+    grid-template-columns: repeat(var(--grid-cols, 2), 1fr);
     gap: 10px;
   }
 }
 
 @media screen and (max-width: 480px) {
   .album-grid {
-    display: flex;
+    grid-template-columns: repeat(var(--grid-cols, 1), 1fr);
     gap: 8px;
   }
 }

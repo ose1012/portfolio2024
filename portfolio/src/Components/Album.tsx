@@ -36,8 +36,17 @@ const Album: React.FC = () => {
     {
       src: "https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FbQdcqF%2FbtsHMz6xVdz%2FeRZfGRZZZ3Bs3ZJ0EPC261%2Fimg.png",
     },
+    {
+      src: "https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2F8EX83%2FbtsJyEzLYvr%2FwTmUn5u943VextMhGA0Zfk%2Fimg.png",
+    },
+    {
+      src: "https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FcYsU8N%2FbtsJxXM5w7K%2FE7XJzoW8BueXNJOJRZfU5k%2Fimg.png",
+    },
+    {
+      src: "https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FbBYKGB%2FbtsJzs6d5uc%2Fc3ZM2OeBXqXk81b1FTrNpk%2Fimg.jpg",
+    },
   ];
-  
+
   const openFullscreen = (src: string) => {
     setSelectedImage(src);
   };
